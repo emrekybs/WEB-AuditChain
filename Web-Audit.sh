@@ -34,7 +34,6 @@ echo -e "\n\n"
 
 echo -e "${RED}Please enter the target domain (example: domain.com):${NC}"
 
-# Kullanıcıdan domain girmesini iste
 read -p "${GREEN}Target Website->> ${NC}" domain
 
 
