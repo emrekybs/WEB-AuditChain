@@ -120,4 +120,4 @@ clear
 
 echo -e "${GREEN}All dependencies have been installed.${NC}"
 
-echo -e "${GREEN}Installation completed. You can now run the Web-Audit.sh${NC}"
+echo -e "${GREEN}Installation completed. You can now run the Web-AuditChain.sh${NC}"
