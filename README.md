@@ -12,6 +12,7 @@ By integrating popular tools, it efficiently and automatically conducts these ta
 * Whois Query: Retrieving domain ownership and associated information.
 * WhatWeb: Identifying the technological infrastructure of websites.
 * WAFW00F: Detection of Web Application Firewalls (WAF).
+* SSLSCAN: tests SSL/TLS enabled services to discover supported cipher suites
 * EmailFinder: Discovering email addresses associated with a target domain.
 * DNSRecon: Conducting DNS discovery and zone transfer attempts.
 * Subfinder: Discovering subdomains related to a target domain.
