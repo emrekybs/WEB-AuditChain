@@ -103,6 +103,19 @@ sudo go install github.com/projectdiscovery/katana/cmd/katana@latest
 sudo go install -v github.com/projectdiscovery/httpx/cmd/httpx@latest
 
 sudo go install github.com/pwnesia/dnstake/cmd/dnstake@latest
+
+echo -e "${GREEN}Cloning the 'leaks' repository...${NC}"
+sudo git clone https://github.com/emrekybs/leaks.git
+cd leaks
+
+echo -e "${GREEN}Installing 'leaks' script...${NC}"
+sudo cp leaks.sh /usr/local/bin/leaks.sh
+sudo chmod +x /usr/local/bin/leaks.sh
+
+cd ..
+rm -rf leaks
+
+echo -e "${GREEN}The 'leaks' script has been installed successfully.${NC}"
 clear
 
 echo -e "${GREEN}All dependencies have been installed.${NC}"
