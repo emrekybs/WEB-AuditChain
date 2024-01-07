@@ -24,5 +24,5 @@ By integrating popular tools, it efficiently and automatically conducts these ta
 * Metagoofil: Extracting document metadata information.
 
 # 𝗜𝗡𝗦𝗧𝗔𝗟𝗟𝗔𝗧𝗜𝗢𝗡
-      $ git clone https://github.com/emrekybs/WEB-AuditKit.git && cd WEB-AuditKit && chmod +x * && ./install.sh
+       git clone https://github.com/emrekybs/WEB-AuditKit.git && cd WEB-AuditKit && chmod +x * && ./install.sh
 
