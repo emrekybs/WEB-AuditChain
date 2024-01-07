@@ -1,5 +1,5 @@
 [![EmreKybs](https://img.shields.io/badge/MadeBy-EmreKybs-blue)
-# WEB-AuditKit
+# WEB-AuditChain
 This script is designed to expedite the information gathering phase in web security testing.
 It automates processes such as subdomain scanning, directory structure discovery, and SSL/TLS configuration analysis on target websites.
 By integrating popular tools, it efficiently and automatically conducts these tasks, reducing the burden of manual review and saving time for security professionals.
@@ -26,5 +26,5 @@ By integrating popular tools, it efficiently and automatically conducts these ta
 * Leaks: A Security Tool for Detecting Potential Data Leakages in Specified Web Domains.
 
 # 𝗜𝗡𝗦𝗧𝗔𝗟𝗟𝗔𝗧𝗜𝗢𝗡
-       git clone https://github.com/emrekybs/WEB-AuditKit.git && cd WEB-AuditKit && chmod +x * && ./install.sh
+       git clone https://github.com/emrekybs/WEB-AuditChain.git && cd WEB-AuditChain && chmod +x * && ./install.sh
 
