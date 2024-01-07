@@ -96,18 +96,13 @@ sudo pip3 install emailfinder
 
 echo -e "${GREEN}Installing Go-based tools...${NC}"
 
+sudo go install github.com/jaeles-project/gospider@latest
 
-go install github.com/jaeles-project/gospider@latest
+sudo go install github.com/projectdiscovery/katana/cmd/katana@latest
 
-
-go install github.com/projectdiscovery/katana/cmd/katana@latest
-
-
-go install -v github.com/projectdiscovery/httpx/cmd/httpx@latest
-
+sudo go install -v github.com/projectdiscovery/httpx/cmd/httpx@latest
 clear
 
 echo -e "${GREEN}All dependencies have been installed.${NC}"
-
 
 echo -e "${GREEN}Installation completed. You can now run the Web-Audit.sh${NC}"
