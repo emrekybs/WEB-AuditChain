@@ -8,6 +8,10 @@ By integrating popular tools, it efficiently and automatically conducts these ta
 
 <img src="https://github.com/emrekybs/WEB-AuditKit/blob/main/2.png">
 
+# LEAKS
+<img src="https://github.com/emrekybs/WEB-AuditChain/blob/main/3.png">
+
+
 ### Used Tools and Techniques
 * Whois Query: Retrieving domain ownership and associated information.
 * WhatWeb: Identifying the technological infrastructure of websites.
