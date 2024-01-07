@@ -23,6 +23,7 @@ By integrating popular tools, it efficiently and automatically conducts these ta
 * Katana: crawling and spidering framework.
 * GoSpider: Fast web spider.
 * Metagoofil: Extracting document metadata information.
+* Leaks: A Security Tool for Detecting Potential Data Leakages in Specified Web Domains.
 
 # 𝗜𝗡𝗦𝗧𝗔𝗟𝗟𝗔𝗧𝗜𝗢𝗡
        git clone https://github.com/emrekybs/WEB-AuditKit.git && cd WEB-AuditKit && chmod +x * && ./install.sh
