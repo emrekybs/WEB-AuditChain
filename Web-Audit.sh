@@ -81,8 +81,8 @@ subfinder -d $domain -o Results/subdomains.txt | lolcat
 echo  "${BLUE}Scan complete. Results in 'Results/subdomains.txt'.${NC}"
 echo -e "$RED_LINE"
 
-# subfinder ile domain taraması yap ve sessiz modda çalıştır
-subfinder -d $domain -silent | httpx -title -tech-detect -status-code -o Results/httpx.txt
+# subfinder Httpx
+subfinder -d $domain -silent | httpx -title -tech-detect -status-code -asn -o Results/httpx.txt
 echo "${BLUE}Scan complete. Results in 'Results/httpx.txt'.${NC}"
 echo -e "$RED_LINE"
 
