@@ -23,6 +23,6 @@ By integrating popular tools, it efficiently and automatically conducts these ta
 * GoSpider: Fast web spider.
 * Metagoofil: Extracting document metadata information.
 
-# 𝗜𝗡𝗦𝗧𝗔𝗟𝗟𝗔𝗧𝗜𝗢𝗡 𝗜𝗡𝗦𝗧𝗥𝗨𝗖𝗧𝗜𝗢𝗡𝗦
+# 𝗜𝗡𝗦𝗧𝗔𝗟𝗟𝗔𝗧𝗜𝗢𝗡
   $ git clone https://github.com/emrekybs/WEB-AuditKit.git && cd WEB-AuditKit && chmod +x * && ./install.sh
 
