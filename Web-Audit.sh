@@ -117,6 +117,12 @@ metagoofil -d $domain -t pdf -l 200 -n 100 -o Results/metagoofil -f Results/meta
 echo "${BLUE}Scan complete. Results in 'Results/metagoofil.html'.${NC}"
 echo -e "$RED_LINE"
 
+# Leaks
+figlet LEAKS | lolcat
+bash leaks.sh $domain | tee Results/leaks.txt
+echo "${BLUE}Scan complete. Results in 'Results/leaks.txt'.${NC}"
+echo -e "$RED_LINE"
+
 echo -e "${GREEN}ALL Scan is Completed !${NC}"
 echo -e "${GREEN}<--By Emre Koybasi--> !${NC}"
 
