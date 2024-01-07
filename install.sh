@@ -101,6 +101,8 @@ sudo go install github.com/jaeles-project/gospider@latest
 sudo go install github.com/projectdiscovery/katana/cmd/katana@latest
 
 sudo go install -v github.com/projectdiscovery/httpx/cmd/httpx@latest
+
+sudo go install github.com/pwnesia/dnstake/cmd/dnstake@latest
 clear
 
 echo -e "${GREEN}All dependencies have been installed.${NC}"
