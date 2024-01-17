@@ -118,6 +118,27 @@ rm -rf leaks
 echo -e "${GREEN}The 'leaks' script has been installed successfully.${NC}"
 clear
 
+echo -e "${GREEN}Cloning the 'Uscrapper' repository...${NC}"
+git clone https://github.com/z0m31en7/Uscrapper.git
+cd Uscrapper/install/
+
+echo -e "${GREEN}Running the installation script for 'Uscrapper'...${NC}"
+chmod +x ./install.sh
+./install.sh
+
+echo -e "${GREEN}Copying 'Uscrapper-v2.0.py' to '/usr/local/bin' and renaming it to 'unscrapper'...${NC}"
+sudo cp ../Uscrapper-v2.0.py /usr/local/bin/unscrapper
+sudo chmod +x /usr/local/bin/unscrapper
+
+sudo sed -i '1i #!/usr/bin/env python3' /usr/local/bin/unscrapper
+
+cd ../..
+rm -rf Uscrapper
+
+echo -e "${GREEN}The 'Uscrapper' has been installed successfully.${NC}"
+clear
+
+
 echo -e "${GREEN}All dependencies have been installed.${NC}"
 
 echo -e "${GREEN}Installation completed. You can now run the Web-AuditChain.sh${NC}"
