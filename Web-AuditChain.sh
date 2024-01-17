@@ -34,8 +34,13 @@ echo -e "\n\n"
 
 echo -e "${RED}Please enter the target domain (example: domain.com):${NC}"
 
-# Kullanıcıdan domain girmesini iste
+
 read -p "${GREEN}Target Website->> ${NC}" domain
+
+#tekrar
+RED=$(tput setaf 1) 
+NC=$(tput sgr0) 
+RED_LINE="${RED}==================================================================================================================================${NC}"
 
 
 # Whois
@@ -59,6 +64,11 @@ figlet SSLSCAN | lolcat
 sleep 1
 sslscan $domain | tee Results/Sslscan.com
 echo -e "${BLUE}Scan complete. Results in 'Results/Sslscan.txt'.${NC}"
+echo -e "$RED_LINE"
+
+#Social Osint
+unscrapper -u https://$domain -O 
+echo -e "${BLUE}Scan complete. Results in 'Results/Date.txt'.${NC}"
 echo -e "$RED_LINE"
 
 #E-Mail
