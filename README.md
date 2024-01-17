@@ -28,6 +28,7 @@ By integrating popular tools, it efficiently and automatically conducts these ta
 * GoSpider: Fast web spider.
 * Metagoofil: Extracting document metadata information.
 * Leaks: A Security Tool for Detecting Potential Data Leakages in Specified Web Domains.
+* Uscrapper: Social-Osint
 
 # 𝗜𝗡𝗦𝗧𝗔𝗟𝗟𝗔𝗧𝗜𝗢𝗡
        git clone https://github.com/emrekybs/WEB-AuditChain.git && cd WEB-AuditChain && chmod +x * && ./install.sh
