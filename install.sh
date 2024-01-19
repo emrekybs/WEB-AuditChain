@@ -104,6 +104,8 @@ sudo go install -v github.com/projectdiscovery/httpx/cmd/httpx@latest
 
 sudo go install github.com/pwnesia/dnstake/cmd/dnstake@latest
 
+sudo go install -v github.com/projectdiscovery/dnsx/cmd/dnsx@latest
+
 echo -e "${GREEN}Cloning the 'leaks' repository...${NC}"
 sudo git clone https://github.com/emrekybs/leaks.git
 cd leaks
