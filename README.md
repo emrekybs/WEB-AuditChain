@@ -1,4 +1,4 @@
-[![EmreKybs](https://img.shields.io/badge/MadeBy-EmreKybs-blue)
+[![EmreKybs](https://img.shields.io/badge/MadeBy-Angelus-blue)
 # WEB-AuditChain
 This script is designed to expedite the information gathering phase in web security testing.
 It automates processes such as subdomain scanning, potential data leakages,directory structure discovery, and SSL/TLS configuration analysis on target websites.
