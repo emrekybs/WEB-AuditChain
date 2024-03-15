@@ -4,7 +4,6 @@ This script is designed to expedite the information gathering phase in web secur
 It automates processes such as subdomain scanning, potential data leakages,directory structure discovery, and SSL/TLS configuration analysis on target websites.
 By integrating popular tools, it efficiently and automatically conducts these tasks, reducing the burden of manual review and saving time for security professionals.
 
-<img src="https://github.com/emrekybs/WEB-AuditKit/blob/main/1.png">
 
 <img src="https://github.com/emrekybs/WEB-AuditKit/blob/main/2.png">
 
@@ -31,5 +30,5 @@ By integrating popular tools, it efficiently and automatically conducts these ta
 * Uscrapper: Social-Osint
 
 # 𝗜𝗡𝗦𝗧𝗔𝗟𝗟𝗔𝗧𝗜𝗢𝗡
-       git clone https://github.com/emrekybs/WEB-AuditChain.git && cd WEB-AuditChain && chmod +x * && ./install.sh
+       git clone https://github.com/bloodbane0/WEB-AuditChain.git && cd WEB-AuditChain && chmod +x * && ./install.sh
 
